@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "18696404981",
+    "project_id": "chart-patterns-897c3",
+    "storage_bucket": "chart-patterns-897c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18696404981:android:4344312ae7ebbd49c1aabc",
+        "android_client_info": {
+          "package_name": "com.uma.chartpatterns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18696404981-is7k0ktoat1as9h7otvgkkkdv3dqng8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlndpRLjUdTRB_KEN3GpPUVRa16IVoTmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18696404981-is7k0ktoat1as9h7otvgkkkdv3dqng8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

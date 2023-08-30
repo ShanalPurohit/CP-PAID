@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c3pattern4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Flag Pole Bearish  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/flagpolebearish1" />
+
+            </androidx.cardview.widget.CardView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/flagpole" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The flag pole bearish chart pattern is a technical analysis pattern that is used to identify a potential trend reversal in a stock or other asset. The pattern is formed when there is a sharp downward price movement (the flag pole) followed by a period of consolidation or sideways movement (the flag).\n\n
+During the consolidation period, the price may trade within a range and fail to make new highs, indicating a loss of upward momentum. This is often accompanied by declining trading volumes, as traders become uncertain about the direction of the market.\n\n
+When the consolidation period ends, the price often breaks out to the downside, signaling a continuation of the previous downtrend. Traders may use this pattern as a signal to enter short positions or sell off existing long positions, with the expectation that the price will continue to fall.\n\n
+It's worth noting that the flag pole bearish pattern is just one of many chart patterns used in technical analysis, and traders should always use multiple indicators and tools to make trading decisions. Additionally, like any other trading signal, the flag pole bearish pattern is not foolproof, and there is always a risk of losses."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="फ़्लैग पोल बेयरिश चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जिसका उपयोग स्टॉक या अन्य परिसंपत्ति में संभावित प्रवृत्ति उलट की पहचान करने के लिए किया जाता है। पैटर्न तब बनता है जब कीमत में तेज गिरावट (ध्वज पोल) होती है और उसके बाद समेकन की अवधि या बग़ल में आंदोलन (ध्वज) होता है।\n\n
+समेकन अवधि के दौरान, कीमत एक सीमा के भीतर व्यापार कर सकती है और नई ऊंचाई बनाने में विफल हो सकती है, जो ऊपर की गति के नुकसान का संकेत देती है। यह अक्सर ट्रेडिंग वॉल्यूम में गिरावट के साथ होता है, क्योंकि व्यापारी बाजार की दिशा के बारे में अनिश्चित हो जाते हैं।\n\n
+जब समेकन अवधि समाप्त हो जाती है, तो कीमत अक्सर नीचे की ओर आ जाती है, जो पिछले डाउनट्रेंड के जारी रहने का संकेत देती है। व्यापारी इस पैटर्न का उपयोग शॉर्ट पोजीशन में प्रवेश करने या मौजूदा लॉन्ग पोजीशन को बेचने के लिए एक संकेत के रूप में कर सकते हैं, इस उम्मीद के साथ कि कीमत में गिरावट जारी रहेगी।\n\n
+यह ध्यान देने योग्य है कि फ़्लैग पोल मंदी पैटर्न तकनीकी विश्लेषण में उपयोग किए जाने वाले कई चार्ट पैटर्न में से एक है, और व्यापारियों को व्यापारिक निर्णय लेने के लिए हमेशा कई संकेतकों और उपकरणों का उपयोग करना चाहिए। इसके अतिरिक्त, किसी भी अन्य ट्रेडिंग सिग्नल की तरह, फ़्लैग पोल मंदी पैटर्न फुलप्रूफ नहीं है, और हमेशा नुकसान का जोखिम रहता है।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

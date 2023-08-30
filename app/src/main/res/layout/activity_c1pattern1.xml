@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Double Top  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/doubletop1" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/doubletop" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A double top is a technical chart pattern commonly used in technical analysis of financial markets, particularly in stock trading. It is formed when the price of an asset or security rises to a particular level (forming the first peak), then falls back down, and then rises again to the same level (forming the second peak) before declining once more.\n\n
+The double top pattern indicates that there is resistance at a certain price level, meaning that buyers are not willing to push the price above that level. It is seen as a bearish pattern, as it suggests that the price may be about to reverse course and move lower.\n\n
+Traders often use double top patterns to help them identify potential points of entry and exit in a trade. If the price breaks below the 'neckline' (the level that connects the two troughs between the two peaks), it is seen as a signal to sell or short the asset, as it suggests that the price may continue to move lower. Conversely, if the price breaks above the second peak, it could be a signal to buy or go long on the asset, as it suggests that the price may continue to move higher."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="डबल टॉप एक तकनीकी चार्ट पैटर्न है जिसका उपयोग आमतौर पर वित्तीय बाजारों के तकनीकी विश्लेषण में किया जाता है, खासकर स्टॉक ट्रेडिंग में। यह तब बनता है जब किसी परिसंपत्ति या सुरक्षा की कीमत एक विशेष स्तर तक बढ़ जाती है (पहला शिखर बनता है), फिर वापस नीचे गिरती है, और फिर एक बार फिर गिरने से पहले उसी स्तर (दूसरा शिखर बनाती है) पर फिर से बढ़ जाती है। \n\n
+डबल टॉप पैटर्न इंगित करता है कि एक निश्चित मूल्य स्तर पर प्रतिरोध है, जिसका अर्थ है कि खरीदार कीमत को उस स्तर से ऊपर धकेलने के इच्छुक नहीं हैं। इसे एक मंदी के पैटर्न के रूप में देखा जाता है, क्योंकि इससे पता चलता है कि कीमत पलटने वाली है और नीचे जाने वाली है।\n\n
+व्यापारी अक्सर किसी व्यापार में प्रवेश और निकास के संभावित बिंदुओं की पहचान करने में मदद के लिए डबल टॉप पैटर्न का उपयोग करते हैं। यदि कीमत 'नेकलाइन' (वह स्तर जो दो शिखरों के बीच दो गर्तों को जोड़ती है) से नीचे टूटती है, तो इसे परिसंपत्ति को बेचने या कम करने के संकेत के रूप में देखा जाता है, क्योंकि यह सुझाव देता है कि कीमत कम होना जारी रह सकती है। इसके विपरीत, यदि कीमत दूसरे शिखर से ऊपर टूटती है, तो यह परिसंपत्ति को खरीदने या लंबे समय तक चलने का संकेत हो सकता है, क्योंकि इससे पता चलता है कि कीमत में वृद्धि जारी रह सकती है।"
+                android:textFontWeight="400"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

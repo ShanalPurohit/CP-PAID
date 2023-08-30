@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40sp"
+                android:drawableLeft="@drawable/share"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:text="Share App"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40sp"
+                android:drawableLeft="@drawable/document1"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:text="Privacy Policy"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40sp"
+                android:drawableLeft="@drawable/document1"
+                android:textAllCaps="false"
+                android:textSize="24sp"
+                android:text="Terms and Conditions"/>
+
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40sp"
+                android:drawableLeft="@drawable/refund"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:text="Refund Policy"/>
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="40sp"
+                android:drawableLeft="@drawable/aboutus"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:text="About Us"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#bdbdbd"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version 1.1"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_margin="20dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#bdbdbd"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="NOTICE : We are not SEBI Reginstered.Any Financial / Derivatives / Index / Advisory Please Consult Your Financial Advisor Before Any Investemnt."
+                android:layout_margin="5sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

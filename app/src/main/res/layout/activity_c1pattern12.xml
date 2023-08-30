@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern12">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Rectangle  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rectangle1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/rectangle" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A rectangle chart pattern is a technical analysis tool used in stock market analysis to identify potential trends in stock prices. It is formed by drawing two parallel lines, one at the top of the chart and one at the bottom, which represent the resistance and support levels respectively.\n\n
+The pattern is created when the price of a stock is trading within a range between these two lines. The longer the stock trades within this range, the more significant the pattern becomes.\n\n
+Rectangle patterns can be bullish or bearish, depending on the direction of the trend. A bullish rectangle pattern is formed when the price of a stock is in an uptrend and consolidates within a rectangle formation before breaking out above the resistance level. Conversely, a bearish rectangle pattern is formed when the price of a stock is in a downtrend and consolidates within a rectangle formation before breaking out below the support level.\n\n
+The rectangle chart pattern is often used by traders to predict potential breakouts in the stock price. Once the price breaks out of the rectangle formation, traders will look for confirmation of the breakout before taking a position in the stock.\n\n
+One common strategy for trading rectangle patterns is to wait for the breakout to occur and then enter a long or short position, depending on the direction of the breakout. Traders may also use technical indicators, such as volume and momentum, to confirm the breakout and increase the probability of a successful trade.\n\n
+In conclusion, the rectangle chart pattern is a popular technical analysis tool used by traders to identify potential trends in stock prices. It is formed by drawing two parallel lines that represent the resistance and support levels, and traders look for breakouts to predict future price movements. By understanding how to identify and trade the rectangle chart pattern, traders can increase their chances of success in the stock market."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="आयत चार्ट पैटर्न एक तकनीकी विश्लेषण उपकरण है जिसका उपयोग स्टॉक कीमतों में संभावित रुझानों की पहचान करने के लिए स्टॉक मार्केट विश्लेषण में किया जाता है। यह दो समानांतर रेखाएँ खींचकर बनाई गई है, एक चार्ट के शीर्ष पर और एक नीचे, जो क्रमशः प्रतिरोध और समर्थन स्तर का प्रतिनिधित्व करती हैं।\n\n
+पैटर्न तब बनता है जब किसी स्टॉक की कीमत इन दो रेखाओं के बीच की सीमा के भीतर कारोबार कर रही होती है। स्टॉक इस सीमा के भीतर जितना अधिक समय तक कारोबार करता है, पैटर्न उतना ही अधिक महत्वपूर्ण हो जाता है।\n\n
+प्रवृत्ति की दिशा के आधार पर, आयताकार पैटर्न तेजी या मंदी हो सकता है। एक तेजी से आयताकार पैटर्न तब बनता है जब किसी स्टॉक की कीमत एक अपट्रेंड में होती है और प्रतिरोध स्तर से ऊपर टूटने से पहले एक आयताकार संरचना के भीतर समेकित हो जाती है। इसके विपरीत, एक मंदी का आयताकार पैटर्न तब बनता है जब किसी स्टॉक की कीमत गिरावट की प्रवृत्ति में होती है और समर्थन स्तर से नीचे टूटने से पहले एक आयताकार संरचना के भीतर समेकित हो जाती है।\n\n
+स्टॉक मूल्य में संभावित ब्रेकआउट की भविष्यवाणी करने के लिए व्यापारियों द्वारा अक्सर आयताकार चार्ट पैटर्न का उपयोग किया जाता है। एक बार जब कीमत आयताकार गठन से बाहर हो जाती है, तो व्यापारी स्टॉक में स्थिति लेने से पहले ब्रेकआउट की पुष्टि की तलाश करेंगे।\n\n
+आयत पैटर्न के व्यापार के लिए एक सामान्य रणनीति ब्रेकआउट होने की प्रतीक्षा करना और फिर ब्रेकआउट की दिशा के आधार पर लंबी या छोटी स्थिति में प्रवेश करना है। ब्रेकआउट की पुष्टि करने और सफल व्यापार की संभावना बढ़ाने के लिए व्यापारी वॉल्यूम और गति जैसे तकनीकी संकेतकों का भी उपयोग कर सकते हैं।\n\n
+अंत में, आयत चार्ट पैटर्न एक लोकप्रिय तकनीकी विश्लेषण उपकरण है जिसका उपयोग व्यापारियों द्वारा स्टॉक कीमतों में संभावित रुझानों की पहचान करने के लिए किया जाता है। यह दो समानांतर रेखाएँ खींचकर बनाई गई है जो प्रतिरोध और समर्थन स्तरों का प्रतिनिधित्व करती हैं, और व्यापारी भविष्य के मूल्य आंदोलनों की भविष्यवाणी करने के लिए ब्रेकआउट की तलाश करते हैं। आयत चार्ट पैटर्न को पहचानने और व्यापार करने के तरीके को समझकर, व्यापारी शेयर बाजार में अपनी सफलता की संभावना बढ़ा सकते हैं।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Channel Down  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/channeldown1" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/channeldown" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The channel down chart pattern is a technical analysis pattern that is formed by two parallel trendlines sloping downwards, with the price bouncing back and forth between these lines. This pattern is also known as a descending channel, and it is typically seen as a bearish pattern, signaling a potential downtrend in the price of the asset being analyzed.\n\n
+The upper trendline in a channel down pattern is formed by connecting the highs of the price action, while the lower trendline is formed by connecting the lows. The price tends to move within this channel, with the upper trendline acting as resistance and the lower trendline acting as support.\n\n
+Traders look for breakouts from the channel down pattern to help identify potential trading opportunities. A breakout above the upper trendline can signal a bullish reversal, while a breakout below the lower trendline can signal a continuation of the downtrend.\n\n
+It is important to note that while the channel down pattern can provide insights into potential price movements, it should be used in conjunction with other technical indicators and fundamental analysis to make informed trading decisions."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="चैनल डाउन चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जो नीचे की ओर झुकी हुई दो समानांतर ट्रेंडलाइनों द्वारा बनता है, इन लाइनों के बीच कीमत आगे और पीछे उछलती है। इस पैटर्न को अवरोही चैनल के रूप में भी जाना जाता है, और इसे आम तौर पर मंदी के पैटर्न के रूप में देखा जाता है, जो विश्लेषण की जा रही परिसंपत्ति की कीमत में संभावित गिरावट का संकेत देता है।\n\n
+चैनल डाउन पैटर्न में ऊपरी ट्रेंडलाइन मूल्य कार्रवाई के उच्च को जोड़कर बनाई जाती है, जबकि निचली ट्रेंडलाइन निम्न को जोड़कर बनाई जाती है। कीमत इस चैनल के भीतर चलती रहती है, ऊपरी ट्रेंडलाइन प्रतिरोध के रूप में कार्य करती है और निचली ट्रेंडलाइन समर्थन के रूप में कार्य करती है।\n\n
+संभावित व्यापारिक अवसरों की पहचान करने में मदद के लिए व्यापारी चैनल डाउन पैटर्न से ब्रेकआउट की तलाश करते हैं। ऊपरी ट्रेंडलाइन के ऊपर एक ब्रेकआउट एक तेजी से उलटफेर का संकेत दे सकता है, जबकि निचली ट्रेंडलाइन के नीचे एक ब्रेकआउट डाउनट्रेंड की निरंतरता का संकेत दे सकता है।\n\n
+यह ध्यान रखना महत्वपूर्ण है कि जबकि चैनल डाउन पैटर्न संभावित मूल्य आंदोलनों में अंतर्दृष्टि प्रदान कर सकता है, इसका उपयोग अन्य तकनीकी संकेतकों और मौलिक विश्लेषण के साथ मिलकर सूचित व्यापारिक निर्णय लेने के लिए किया जाना चाहिए।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

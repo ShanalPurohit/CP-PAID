@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern25">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Bump and Run  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/bumprun" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The bump and run chart pattern, also known as the bump and run reversal or BARR pattern, is a technical analysis pattern that can be observed on price charts. It is primarily used in the analysis of stock, commodity, or currency markets.\n\n
+The pattern consists of three main phases:\n\n
+The Lead-In Phase: This phase represents a long-term trend where prices gradually rise due to an established bullish trend. During this phase, the price increase is typically steady and lacks excessive volatility.\n\n
+The Bump Phase: In this phase, the price experiences a rapid and substantial increase, forming a distinct bump on the chart. This bump is characterized by a sharp rise in prices, often driven by a surge in buying pressure or positive news.\n\n
+The Run Phase: After the bump, there is usually a period of consolidation or correction. This phase is referred to as the run. Prices may exhibit a decline or move sideways as the market adjusts and profit-taking occurs. The run phase often forms a downward-sloping trendline, known as the run line.\n\n
+The key characteristic of the bump and run pattern is the violation of the run line, which signals a potential reversal. Once the run line is broken decisively, it suggests a significant shift in market sentiment from bullish to bearish. Traders and analysts look for this break of the run line as a potential entry point for short-selling or other bearish strategies.\n\n
+It is important to note that the bump and run pattern is not infallible and should be used in conjunction with other technical indicators and analysis tools. Like any other chart pattern, it is subject to false signals and market noise, so confirmation from other indicators and market conditions is essential before making trading decisions based solely on this pattern."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="बम्प एंड रन चार्ट पैटर्न, जिसे बम्प एंड रन रिवर्सल या BARR पैटर्न के रूप में भी जाना जाता है, एक तकनीकी विश्लेषण पैटर्न है जिसे मूल्य चार्ट पर देखा जा सकता है। इसका उपयोग मुख्य रूप से स्टॉक, कमोडिटी या मुद्रा बाजारों के विश्लेषण में किया जाता है।\n\n
+पैटर्न में तीन मुख्य चरण होते हैं:\n\n
+लीड-इन चरण: यह चरण एक दीर्घकालिक प्रवृत्ति का प्रतिनिधित्व करता है जहां स्थापित तेजी की प्रवृत्ति के कारण कीमतें धीरे-धीरे बढ़ती हैं। इस चरण के दौरान, मूल्य वृद्धि आम तौर पर स्थिर होती है और इसमें अत्यधिक अस्थिरता का अभाव होता है।\n\n
+उछाल चरण: इस चरण में, कीमत में तेजी से और पर्याप्त वृद्धि का अनुभव होता है, जिससे चार्ट पर एक अलग उछाल बनता है। यह उछाल कीमतों में तेज वृद्धि की विशेषता है, जो अक्सर खरीदारी के दबाव या सकारात्मक समाचार में वृद्धि से प्रेरित होता है।\n\n
+रन चरण: उछाल के बाद, आमतौर पर समेकन या सुधार की अवधि होती है। इस चरण को रन कहा जाता है। जैसे-जैसे बाजार समायोजित होता है और मुनाफावसूली होती है, कीमतें गिरावट प्रदर्शित कर सकती हैं या बग़ल में बढ़ सकती हैं। रन चरण अक्सर नीचे की ओर झुकी हुई ट्रेंडलाइन बनाता है, जिसे रन लाइन के रूप में जाना जाता है।\n\n
+बम्प और रन पैटर्न की मुख्य विशेषता रन लाइन का उल्लंघन है, जो संभावित उलटफेर का संकेत देता है। एक बार जब रन लाइन निर्णायक रूप से टूट जाती है, तो यह बाजार की धारणा में तेजी से मंदी की ओर एक महत्वपूर्ण बदलाव का सुझाव देता है। व्यापारी और विश्लेषक शॉर्ट-सेलिंग या अन्य मंदी की रणनीतियों के लिए संभावित प्रवेश बिंदु के रूप में रन लाइन के इस ब्रेक को देखते हैं।\n\n
+यह ध्यान रखना महत्वपूर्ण है कि बम्प और रन पैटर्न अचूक नहीं है और इसका उपयोग अन्य तकनीकी संकेतकों और विश्लेषण उपकरणों के साथ संयोजन में किया जाना चाहिए। किसी भी अन्य चार्ट पैटर्न की तरह, यह गलत संकेतों और बाजार के शोर के अधीन है, इसलिए केवल इस पैटर्न के आधार पर व्यापारिक निर्णय लेने से पहले अन्य संकेतकों और बाजार स्थितियों की पुष्टि आवश्यक है।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

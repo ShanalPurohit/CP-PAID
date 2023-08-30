@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChartPatterns"
+        tools:targetApi="31">
+        <activity
+            android:name=".c1pattern25"
+            android:exported="false"
+            android:label="Bump and Run"/>
+        <activity
+            android:name=".c1pattern24"
+            android:exported="false"
+            android:label="Symmetrical Expanding Triangle"/>
+        <activity
+            android:name=".c1pattern23"
+            android:exported="false"
+            android:label="Diamond Top"/>
+        <activity
+            android:name=".c1pattern22"
+            android:exported="false"
+            android:label="Diamond Bottom"/>
+        <activity
+            android:name=".c1pattern21"
+            android:exported="false"
+            android:label="Megaphone"/>
+        <activity
+            android:name=".aboutus"
+            android:exported="false"
+            android:label="About Us" />
+        <activity
+            android:name=".settings"
+            android:exported="false"
+            android:label="Settings" />
+        <activity
+            android:name=".c2pattern5"
+            android:exported="false"
+            android:label="Cup and Handle" />
+        <activity
+            android:name=".c2pattern4"
+            android:exported="false"
+            android:label="Flag Pole Bullish" />
+        <activity
+            android:name=".c2pattern3"
+            android:exported="false"
+            android:label="Inverse Head and Shoulders" />
+        <activity
+            android:name=".c2pattern2"
+            android:exported="false"
+            android:label="Triple Bottom" />
+        <activity
+            android:name=".c2pattern1"
+            android:exported="false"
+            android:label="Double Bottom" />
+        <activity
+            android:name=".c3pattern5"
+            android:exported="false"
+            android:label="Round Top" />
+        <activity
+            android:name=".c3pattern4"
+            android:exported="false"
+            android:label="Flag Pole Bearish" />
+        <activity
+            android:name=".c3pattern3"
+            android:exported="false"
+            android:label="Head and Shoulders" />
+        <activity
+            android:name=".c3pattern2"
+            android:exported="false"
+            android:label="Triple Top" />
+        <activity
+            android:name=".c3pattern1"
+            android:exported="false"
+            android:label="Double Top" />
+        <activity
+            android:name=".c4pattern10"
+            android:exported="false"
+            android:label="Round Top" />
+        <activity
+            android:name=".c4pattern9"
+            android:exported="false"
+            android:label="Cup and Handle" />
+        <activity
+            android:name=".c4pattern8"
+            android:exported="false"
+            android:label="Flag Pole Bearish" />
+        <activity
+            android:name=".c4pattern7"
+            android:exported="false"
+            android:label="Rising Wedge" />
+        <activity
+            android:name=".c4pattern6"
+            android:exported="false"
+            android:label="Symmetrical Triangle" />
+        <activity
+            android:name=".c4pattern5"
+            android:exported="false"
+            android:label="Rectangle" />
+        <activity
+            android:name=".c4pattern4"
+            android:exported="false"
+            android:label="Descending Triangle" />
+        <activity
+            android:name=".c4pattern3"
+            android:exported="false"
+            android:label="Ascending Triangle" />
+        <activity
+            android:name=".c4pattern2"
+            android:exported="false"
+            android:label="Double Bottom" />
+        <activity
+            android:name=".c4pattern1"
+            android:exported="false"
+            android:label="Double Top" />
+        <activity
+            android:name=".c1pattern20"
+            android:exported="false"
+            android:label="Inverse head and shoulder" />
+        <activity
+            android:name=".c1pattern19"
+            android:exported="false"
+            android:label="Head and Shoulder" />
+        <activity
+            android:name=".c1pattern18"
+            android:exported="false"
+            android:label="Round Bottom" />
+        <activity
+            android:name=".c1pattern17"
+            android:exported="false"
+            android:label="Round Top" />
+        <activity
+            android:name=".c1pattern16"
+            android:exported="false"
+            android:label="Cup and Handle" />
+        <activity
+            android:name=".c1pattern15"
+            android:exported="false"
+            android:label="V Shape" />
+        <activity
+            android:name=".c1pattern14"
+            android:exported="false"
+            android:label="Flag Pole Bullish" />
+        <activity
+            android:name=".c1pattern13"
+            android:exported="false"
+            android:label="Flag Pole Bearish" />
+        <activity
+            android:name=".c1pattern12"
+            android:exported="false"
+            android:label="Rectangle" />
+        <activity
+            android:name=".c1pattern11"
+            android:exported="false"
+            android:label="Rising Wedge" />
+        <activity
+            android:name=".c1pattern10"
+            android:exported="false"
+            android:label="Falling Wedge" />
+        <activity
+            android:name=".c1pattern9"
+            android:exported="false"
+            android:label="Channel Up" />
+        <activity
+            android:name=".c1pattern8"
+            android:exported="false"
+            android:label="Channel Down" />
+        <activity
+            android:name=".c1pattern7"
+            android:exported="false"
+            android:label="Symmetrical Triangle" />
+        <activity
+            android:name=".c1pattern6"
+            android:exported="false"
+            android:label="Descending Triangle" />
+        <activity
+            android:name=".c1pattern5"
+            android:exported="false"
+            android:label="Ascending Triangle" />
+        <activity
+            android:name=".c1pattern4"
+            android:exported="false"
+            android:label="Triple Bottom" />
+        <activity
+            android:name=".c1pattern3"
+            android:exported="false"
+            android:label="Triple Top" />
+        <activity
+            android:name=".c1pattern2"
+            android:exported="false"
+            android:label="Double Bottom" />
+        <activity
+            android:name=".c1pattern1"
+            android:exported="false"
+            android:label="Double Top" />
+        <activity
+            android:name=".course5"
+            android:exported="false"
+            android:label="Trading Tips" />
+        <activity
+            android:name=".course4"
+            android:exported="false"
+            android:label="Most Useful Patterns" />
+        <activity
+            android:name=".course3"
+            android:exported="false"
+            android:label="Bearish Chart Patterns" />
+        <activity
+            android:name=".course2"
+            android:exported="false"
+            android:label="Bullish Chart Patterns" />
+        <activity
+            android:name=".course1"
+            android:exported="false"
+            android:label="All Chart Patterns" />
+        <activity
+            android:name=".home"
+            android:exported="false"
+            android:label="Chart Patterns"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
+    </application>
+
+</manifest>

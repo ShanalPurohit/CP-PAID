@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".course2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/course2" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="01. Double Bottom"
+                android:id="@+id/btn1"
+                android:textSize="16sp"
+                android:background="@drawable/round_btn"
+                android:layout_margin="10sp"
+                android:textAlignment="textStart"
+                android:drawableRight="@drawable/playbutton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="02. Triple Bottom"
+                android:id="@+id/btn2"
+                android:textSize="16sp"
+                android:background="@drawable/round_btn"
+                android:layout_margin="10sp"
+                android:textAlignment="textStart"
+                android:drawableRight="@drawable/playbutton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="03. Inverted Head and Shoulders"
+                android:id="@+id/btn3"
+                android:textSize="16sp"
+                android:background="@drawable/round_btn"
+                android:layout_margin="10sp"
+                android:textAlignment="textStart"
+                android:drawableRight="@drawable/playbutton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="04. Flag Pole Bullish"
+                android:id="@+id/btn4"
+                android:textSize="16sp"
+                android:background="@drawable/round_btn"
+                android:layout_margin="10sp"
+                android:textAlignment="textStart"
+                android:drawableRight="@drawable/playbutton"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="05. Cup and Handle"
+                android:id="@+id/btn5"
+                android:textSize="16sp"
+                android:background="@drawable/round_btn"
+                android:layout_margin="10sp"
+                android:textAlignment="textStart"
+                android:drawableRight="@drawable/playbutton"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

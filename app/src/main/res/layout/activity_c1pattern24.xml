@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern24">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Symmetrical Expanding Triangle  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/symmetricalexpandingtri" />
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The symmetrical expanding triangle is a chart pattern that occurs in technical analysis, which is the study of historical price and volume data to predict future price movements. This pattern is formed by two converging trendlines, one ascending and one descending, that expand over time.\n\n
+Here's a brief description of the symmetrical expanding triangle chart pattern:\n\n
+Shape: The pattern consists of two trendlines, one forming higher highs and the other forming lower lows. These trendlines are drawn to connect the swing highs and swing lows of the price action.\n\n
+Expansion: Unlike the symmetrical triangle pattern, where the trendlines converge, the symmetrical expanding triangle shows trendlines that expand. This means that the amplitude of the swings between highs and lows increases as time progresses.\n\n
+Duration: The pattern usually forms over a more extended period compared to other triangle patterns. It can take weeks, months, or even longer to develop fully.\n\n
+Volatility: The expanding nature of the pattern indicates increasing volatility in the market. The price swings become larger as the pattern unfolds, reflecting greater uncertainty and indecision between buyers and sellers.\n\n
+Breakout: Eventually, the price will break out of the triangle pattern, usually in the direction of the expanding trendlines. This breakout can occur above the upper trendline (bullish breakout) or below the lower trendline (bearish breakout).\n\n
+Price target: To estimate the potential price target after a breakout, you can measure the height of the pattern (the widest distance between the two trendlines) and add it to the breakout point for a bullish breakout or subtract it for a bearish breakout.\n\n
+Confirmation: Traders often wait for a confirmation of the breakout before taking a position. This confirmation may include increased trading volume, strong price momentum, or a retest of the breakout level to ensure it holds as support or resistance.\n\n
+It's important to note that while chart patterns can provide insights into potential price movements, they are not foolproof indicators. Traders and investors often use additional technical analysis tools and fundamental analysis to make informed decisions."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="सममित विस्तार त्रिकोण एक चार्ट पैटर्न है जो तकनीकी विश्लेषण में होता है, जो भविष्य के मूल्य आंदोलनों की भविष्यवाणी करने के लिए ऐतिहासिक मूल्य और वॉल्यूम डेटा का अध्ययन है। यह पैटर्न दो अभिसरण प्रवृत्ति रेखाओं से बनता है, एक आरोही और एक अवरोही, जो समय के साथ विस्तारित होता है।\n\n
+यहां सममित विस्तार वाले त्रिभुज चार्ट पैटर्न का संक्षिप्त विवरण दिया गया है:\n\n
+आकार: पैटर्न में दो ट्रेंडलाइनें होती हैं, एक उच्चतर ऊंचाई बनाती है और दूसरी निचली निम्न बनाती है। ये ट्रेंडलाइनें मूल्य कार्रवाई के स्विंग हाई और स्विंग लो को जोड़ने के लिए तैयार की गई हैं।\n\n
+विस्तार: सममित त्रिभुज पैटर्न के विपरीत, जहां प्रवृत्ति रेखाएं मिलती हैं, सममित विस्तार त्रिभुज प्रवृत्ति रेखाएं दिखाता है जो विस्तारित होती हैं। इसका मतलब यह है कि जैसे-जैसे समय बढ़ता है, उतार-चढ़ाव के बीच उतार-चढ़ाव का आयाम बढ़ता जाता है।\n\n
+अवधि: पैटर्न आमतौर पर अन्य त्रिकोण पैटर्न की तुलना में अधिक विस्तारित अवधि में बनता है। इसे पूर्ण रूप से विकसित होने में सप्ताह, महीने या उससे भी अधिक समय लग सकता है।\n\n
+अस्थिरता: पैटर्न की विस्तारित प्रकृति बाजार में बढ़ती अस्थिरता का संकेत देती है। जैसे-जैसे पैटर्न सामने आता है, कीमतों में उतार-चढ़ाव बड़ा होता जाता है, जो खरीदारों और विक्रेताओं के बीच अधिक अनिश्चितता और अनिर्णय को दर्शाता है।\n\n
+ब्रेकआउट: अंततः, कीमत त्रिकोण पैटर्न से बाहर निकल जाएगी, आमतौर पर विस्तारित ट्रेंडलाइन की दिशा में। यह ब्रेकआउट ऊपरी ट्रेंडलाइन (तेज़ी ब्रेकआउट) के ऊपर या निचली ट्रेंडलाइन (मंदी ब्रेकआउट) के नीचे हो सकता है।\n\n
+मूल्य लक्ष्य: ब्रेकआउट के बाद संभावित मूल्य लक्ष्य का अनुमान लगाने के लिए, आप पैटर्न की ऊंचाई (दो ट्रेंडलाइनों के बीच की सबसे बड़ी दूरी) को माप सकते हैं और इसे तेजी के ब्रेकआउट के लिए ब्रेकआउट बिंदु में जोड़ सकते हैं या मंदी के ब्रेकआउट के लिए इसे घटा सकते हैं।\ n\n
+पुष्टिकरण: व्यापारी अक्सर पोजीशन लेने से पहले ब्रेकआउट की पुष्टि की प्रतीक्षा करते हैं। इस पुष्टिकरण में बढ़ी हुई ट्रेडिंग मात्रा, मजबूत मूल्य गति, या ब्रेकआउट स्तर का पुनः परीक्षण शामिल हो सकता है ताकि यह सुनिश्चित हो सके कि यह समर्थन या प्रतिरोध के रूप में बना हुआ है।\n\n
+यह ध्यान रखना महत्वपूर्ण है कि हालांकि चार्ट पैटर्न संभावित मूल्य आंदोलनों में अंतर्दृष्टि प्रदान कर सकते हैं, लेकिन वे मूर्खतापूर्ण संकेतक नहीं हैं। व्यापारी और निवेशक अक्सर सूचित निर्णय लेने के लिए अतिरिक्त तकनीकी विश्लेषण उपकरण और मौलिक विश्लेषण का उपयोग करते हैं।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

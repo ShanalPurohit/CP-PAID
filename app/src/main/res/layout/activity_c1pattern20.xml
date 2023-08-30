@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern20">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Inverse Head and Shoulder  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/inverseheadshoulder1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/inverseheadshoulder" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The inverse head and shoulders pattern is a popular technical analysis chart pattern that appears on price charts of assets such as stocks, currencies, and commodities. It is considered a bullish reversal pattern that indicates a potential shift in market sentiment from bearish to bullish.\n\n
+The inverse head and shoulders pattern is made up of three lows, with the middle low being the lowest (the head) and the other two lows (the shoulders) roughly equal in height and positioned on either side of the head. These lows are connected by a neckline, which is a trendline that connects the highs between the two shoulders.\n\n
+The pattern is completed when the price breaks above the neckline, indicating a potential shift in the market sentiment from bearish to bullish. The neckline can act as a resistance level that the price needs to break through in order to confirm the pattern. Once the price breaks above the neckline, traders will often use the height of the pattern to project a potential price target for the asset.\n\n
+The inverse head and shoulders pattern is often considered more reliable if the volume increases as the pattern develops. This is because an increase in volume indicates that more traders are participating in the market and there is greater conviction behind the pattern.\n\n
+Traders will often use other technical indicators in conjunction with the inverse head and shoulders pattern to confirm its validity. For example, a bullish divergence between the price and an oscillator such as the Relative Strength Index (RSI) can provide additional confirmation that the pattern is likely to lead to a bullish reversal.\n\n
+In summary, the inverse head and shoulders pattern is a bullish reversal pattern that indicates a potential shift in market sentiment from bearish to bullish. It is made up of three lows, with the middle low being the lowest and the other two lows roughly equal in height and positioned on either side of the head. The pattern is completed when the price breaks above the neckline, which is a trendline that connects the highs between the two shoulders. Traders will often use other technical indicators in conjunction with the pattern to confirm its validity."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="उलटा हेड एंड शोल्डर पैटर्न एक लोकप्रिय तकनीकी विश्लेषण चार्ट पैटर्न है जो स्टॉक, मुद्राओं और वस्तुओं जैसी परिसंपत्तियों के मूल्य चार्ट पर दिखाई देता है। इसे एक तेजी से उलट पैटर्न माना जाता है जो बाजार की धारणा में मंदी से तेजी की ओर संभावित बदलाव का संकेत देता है।\n\n
+उलटा सिर और कंधों का पैटर्न तीन चढ़ावों से बना है, जिसमें मध्य निचला भाग सबसे निचला (सिर) है और अन्य दो चढ़ाव (कंधे) ऊंचाई में लगभग बराबर हैं और सिर के दोनों ओर स्थित हैं। ये निचले हिस्से एक नेकलाइन से जुड़े होते हैं, जो एक ट्रेंडलाइन है जो दोनों कंधों के बीच ऊंचे हिस्से को जोड़ती है।\n\n
+पैटर्न तब पूरा होता है जब कीमत नेकलाइन से ऊपर टूटती है, जो बाजार की भावना में मंदी से तेजी की ओर संभावित बदलाव का संकेत देती है। नेकलाइन एक प्रतिरोध स्तर के रूप में कार्य कर सकती है जिसे पैटर्न की पुष्टि करने के लिए कीमत को तोड़ने की आवश्यकता होती है। एक बार जब कीमत नेकलाइन से ऊपर हो जाती है, तो व्यापारी अक्सर परिसंपत्ति के लिए संभावित मूल्य लक्ष्य का अनुमान लगाने के लिए पैटर्न की ऊंचाई का उपयोग करेंगे।\n\n
+उलटे सिर और कंधों के पैटर्न को अक्सर अधिक विश्वसनीय माना जाता है यदि पैटर्न विकसित होने के साथ-साथ वॉल्यूम बढ़ता है। ऐसा इसलिए है क्योंकि वॉल्यूम में वृद्धि यह दर्शाती है कि अधिक व्यापारी बाज़ार में भाग ले रहे हैं और इस पैटर्न के पीछे अधिक दृढ़ विश्वास है।\n\n
+व्यापारी अक्सर इसकी वैधता की पुष्टि करने के लिए उलटे सिर और कंधों के पैटर्न के साथ अन्य तकनीकी संकेतकों का उपयोग करेंगे। उदाहरण के लिए, कीमत और रिलेटिव स्ट्रेंथ इंडेक्स (आरएसआई) जैसे ऑसिलेटर के बीच एक तेजी से विचलन अतिरिक्त पुष्टि प्रदान कर सकता है कि पैटर्न में तेजी से उलटफेर होने की संभावना है।\n\n
+संक्षेप में, उलटा सिर और कंधे पैटर्न एक तेजी से उलट पैटर्न है जो बाजार की भावना में मंदी से तेजी की ओर संभावित बदलाव का संकेत देता है। यह तीन चढ़ावों से बना है, जिनमें बीच का निचला हिस्सा सबसे निचला है और अन्य दो निचले हिस्से की ऊंचाई लगभग बराबर है और सिर के दोनों ओर स्थित हैं। पैटर्न तब पूरा होता है जब कीमत नेकलाइन से ऊपर टूटती है, जो एक ट्रेंडलाइन है जो दोनों कंधों के बीच ऊंचाई को जोड़ती है। व्यापारी अक्सर इसकी वैधता की पुष्टि करने के लिए पैटर्न के साथ अन्य तकनीकी संकेतकों का उपयोग करेंगे।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

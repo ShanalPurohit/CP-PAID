@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern18">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Round Bottom  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/roundbottom1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/roundbottom" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The round bottom chart pattern, also known as the 'saucer' pattern, is a technical analysis pattern commonly used in financial markets. It is identified by a gradual and smooth U-shaped curve in the price action of an asset, indicating a potential reversal of a downtrend and the beginning of a new uptrend.\n\n
+The round bottom pattern typically forms after a long period of price decline or consolidation, and may take several weeks or months to develop. During this time, the price of the asset gradually moves sideways or slightly downwards, forming the left side of the saucer-shaped curve.\n\n
+As the pattern progresses, the price starts to rise gradually, forming the bottom of the curve. The price may oscillate within a range for a while, as buyers and sellers try to determine the direction of the next trend. If the price breaks out above the resistance level of the range, it is a strong signal that a new uptrend is beginning.\n\n
+Traders and analysts use the round bottom pattern to identify potential buying opportunities in an asset. They may also use additional technical indicators, such as volume, moving averages, and trendlines, to confirm the strength of the pattern.\n\n
+However, it is important to note that not all round bottom patterns result in a significant price increase. Other market factors, such as news events and economic indicators, may also influence the price of an asset.\n\n
+In summary, the round bottom chart pattern is a bullish technical analysis pattern that may indicate a potential reversal of a downtrend and the beginning of a new uptrend. Traders and analysts use this pattern to identify potential buying opportunities, but additional analysis and confirmation may be necessary before making trading decisions."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="राउंड बॉटम चार्ट पैटर्न, जिसे 'तश्तरी' पैटर्न के रूप में भी जाना जाता है, एक तकनीकी विश्लेषण पैटर्न है जो आमतौर पर वित्तीय बाजारों में उपयोग किया जाता है। इसकी पहचान किसी परिसंपत्ति की कीमत कार्रवाई में एक क्रमिक और चिकनी यू-आकार के वक्र द्वारा की जाती है, जो एक डाउनट्रेंड के संभावित उलट और एक नए अपट्रेंड की शुरुआत का संकेत देता है।\n\n
+राउंड बॉटम पैटर्न आमतौर पर कीमत में गिरावट या समेकन की लंबी अवधि के बाद बनता है, और इसे विकसित होने में कई सप्ताह या महीने लग सकते हैं। इस समय के दौरान, परिसंपत्ति की कीमत धीरे-धीरे बग़ल में या थोड़ा नीचे की ओर बढ़ती है, जिससे तश्तरी के आकार का वक्र बाईं ओर बनता है।\n\n
+जैसे-जैसे पैटर्न आगे बढ़ता है, कीमत धीरे-धीरे बढ़ने लगती है, जिससे वक्र का निचला भाग बनता है। कीमत कुछ समय के लिए एक सीमा के भीतर दोलन कर सकती है, क्योंकि खरीदार और विक्रेता अगली प्रवृत्ति की दिशा निर्धारित करने का प्रयास करते हैं। यदि कीमत सीमा के प्रतिरोध स्तर से ऊपर टूट जाती है, तो यह एक मजबूत संकेत है कि एक नया अपट्रेंड शुरू हो रहा है।\n\n
+व्यापारी और विश्लेषक किसी परिसंपत्ति में संभावित खरीदारी के अवसरों की पहचान करने के लिए राउंड बॉटम पैटर्न का उपयोग करते हैं। वे पैटर्न की ताकत की पुष्टि करने के लिए अतिरिक्त तकनीकी संकेतकों, जैसे वॉल्यूम, मूविंग एवरेज और ट्रेंडलाइन का भी उपयोग कर सकते हैं।\n\n
+हालाँकि, यह ध्यान रखना महत्वपूर्ण है कि सभी राउंड बॉटम पैटर्न के परिणामस्वरूप महत्वपूर्ण मूल्य वृद्धि नहीं होती है। अन्य बाज़ार कारक, जैसे समाचार घटनाएँ और आर्थिक संकेतक, भी किसी परिसंपत्ति की कीमत को प्रभावित कर सकते हैं।\n\n
+संक्षेप में, राउंड बॉटम चार्ट पैटर्न एक तेजी से तकनीकी विश्लेषण पैटर्न है जो डाउनट्रेंड के संभावित उलट और नए अपट्रेंड की शुरुआत का संकेत दे सकता है। व्यापारी और विश्लेषक संभावित खरीदारी के अवसरों की पहचान करने के लिए इस पैटर्न का उपयोग करते हैं, लेकिन व्यापारिक निर्णय लेने से पहले अतिरिक्त विश्लेषण और पुष्टि आवश्यक हो सकती है।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

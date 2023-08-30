@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern21">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Megaphone  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/megaphone" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The megaphone chart pattern, also known as the expanding or broadening wedge pattern, is a technical analysis pattern that can be observed in financial markets. It is characterized by a series of higher highs and lower lows, creating a widening formation that resembles a megaphone or a widening cone.\n\n
+The megaphone pattern typically indicates increased volatility and uncertainty in the market. It reflects a battle between buyers and sellers, where each side becomes more aggressive in pushing prices in their respective direction. As a result, the price swings become larger, forming the expanding pattern.\n\n
+The pattern consists of two trend lines: an upper trend line connecting the higher highs and a lower trend line connecting the lower lows. The two trend lines diverge from each other, creating the expanding shape. Traders often use these trend lines to identify potential entry and exit points.\n\n
+When trading the megaphone pattern, it is important to note that it is considered a reversal pattern, indicating a potential change in the existing trend. The pattern suggests that the market is becoming increasingly uncertain, and the price may reverse its direction. Traders typically wait for confirmation of the reversal, such as a breakout above the upper trend line or a breakdown below the lower trend line, before taking positions.\n\n
+It is worth noting that the megaphone pattern is not as common as other chart patterns like triangles or rectangles. It requires careful analysis and confirmation before making trading decisions. Traders should also consider other technical indicators and fundamental factors to enhance their analysis and reduce potential risks."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="मेगाफोन चार्ट पैटर्न, जिसे विस्तार या व्यापक वेज पैटर्न के रूप में भी जाना जाता है, एक तकनीकी विश्लेषण पैटर्न है जिसे वित्तीय बाजारों में देखा जा सकता है। यह उच्च ऊंचाई और निचले निम्न की एक श्रृंखला की विशेषता है, जो एक चौड़ी संरचना बनाती है जो एक मेगाफोन या एक चौड़ा शंकु जैसा दिखता है।\n\n
+मेगाफोन पैटर्न आमतौर पर बाजार में बढ़ती अस्थिरता और अनिश्चितता का संकेत देता है। यह खरीदारों और विक्रेताओं के बीच लड़ाई को दर्शाता है, जहां प्रत्येक पक्ष कीमतों को अपनी-अपनी दिशा में आगे बढ़ाने में अधिक आक्रामक हो जाता है। परिणामस्वरूप, कीमतों में उतार-चढ़ाव बड़ा हो जाता है, जिससे विस्तार पैटर्न बनता है।\n\n
+पैटर्न में दो प्रवृत्ति रेखाएं होती हैं: एक ऊपरी प्रवृत्ति रेखा उच्च ऊंचाइयों को जोड़ती है और एक निचली प्रवृत्ति रेखा निचले निम्न को जोड़ती है। दो प्रवृत्ति रेखाएं एक-दूसरे से अलग हो जाती हैं, जिससे विस्तारित आकार बनता है। संभावित प्रवेश और निकास बिंदुओं की पहचान करने के लिए व्यापारी अक्सर इन प्रवृत्ति रेखाओं का उपयोग करते हैं।\n\n
+मेगाफोन पैटर्न का व्यापार करते समय, यह ध्यान रखना महत्वपूर्ण है कि इसे एक रिवर्सल पैटर्न माना जाता है, जो मौजूदा प्रवृत्ति में संभावित बदलाव का संकेत देता है। पैटर्न से पता चलता है कि बाजार तेजी से अनिश्चित होता जा रहा है, और कीमत अपनी दिशा उलट सकती है। व्यापारी आम तौर पर स्थिति लेने से पहले उलटाव की पुष्टि की प्रतीक्षा करते हैं, जैसे कि ऊपरी प्रवृत्ति रेखा के ऊपर ब्रेकआउट या निचली प्रवृत्ति रेखा के नीचे ब्रेकआउट।\n\n
+यह ध्यान देने योग्य है कि मेगाफोन पैटर्न अन्य चार्ट पैटर्न जैसे त्रिकोण या आयत जितना सामान्य नहीं है। व्यापारिक निर्णय लेने से पहले सावधानीपूर्वक विश्लेषण और पुष्टि की आवश्यकता होती है। व्यापारियों को अपने विश्लेषण को बढ़ाने और संभावित जोखिमों को कम करने के लिए अन्य तकनीकी संकेतकों और बुनियादी कारकों पर भी विचार करना चाहिए।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

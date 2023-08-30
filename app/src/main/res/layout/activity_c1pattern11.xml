@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern11">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Rising Wedge  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/risingwedge1" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/risingwedhge" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A rising wedge chart pattern is a technical analysis pattern that can be identified on a price chart of an asset, such as a stock or a currency pair. The pattern is formed when the price of the asset moves up in a series of higher highs and higher lows, but with the highs and lows converging towards each other, forming a narrowing wedge shape.\n\n
+The rising wedge pattern is considered a bearish pattern, as it typically signals a potential trend reversal from an uptrend to a downtrend. This is because the narrowing of the price range indicates that the market is losing momentum and that sellers are gaining strength.\n\n
+Traders and investors look for the formation of a rising wedge pattern as a potential signal to sell their long positions or to initiate a short position. They may also use this pattern to set stop-loss orders or to take profits if they had entered a long position earlier.\n\n
+To identify a rising wedge pattern, traders typically look for a series of at least two higher highs and two higher lows that are converging towards each other. The trend line connecting the higher lows is called the support line, while the trend line connecting the higher highs is called the resistance line. The pattern is considered confirmed when the price breaks below the support line.\n\n
+It is important to note that the rising wedge pattern is not always a reliable signal of a trend reversal, as false signals can occur. Therefore, traders should always confirm the pattern with other technical indicators, such as volume, momentum, and oscillators. Additionally, traders should be aware that the price may continue to move up within the wedge before breaking down, so patience and risk management are important when trading this pattern.\n\n
+In conclusion, a rising wedge chart pattern is a technical analysis pattern that can be used by traders and investors to identify potential trend reversals. It is formed when the price of an asset moves up in a series of higher highs and higher lows, but with the highs and lows converging towards each other, forming a narrowing wedge shape. Traders should confirm the pattern with other technical indicators and exercise patience and risk management when trading this pattern."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="राइजिंग वेज चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जिसे किसी परिसंपत्ति के मूल्य चार्ट पर पहचाना जा सकता है, जैसे स्टॉक या मुद्रा जोड़ी। पैटर्न तब बनता है जब परिसंपत्ति की कीमत उच्च ऊंचाई और उच्च निम्न की श्रृंखला में बढ़ती है, लेकिन ऊंचाई और निम्न एक-दूसरे की ओर परिवर्तित हो जाते हैं, जिससे एक संकीर्ण पच्चर का आकार बनता है।\n\n
+राइजिंग वेज पैटर्न को एक मंदी पैटर्न माना जाता है, क्योंकि यह आम तौर पर एक संभावित प्रवृत्ति के अपट्रेंड से डाउनट्रेंड में उलट होने का संकेत देता है। ऐसा इसलिए है क्योंकि मूल्य सीमा का संकुचित होना यह दर्शाता है कि बाजार गति खो रहा है और विक्रेता ताकत हासिल कर रहे हैं।\n\n
+व्यापारी और निवेशक अपनी लंबी स्थिति बेचने या छोटी स्थिति शुरू करने के संभावित संकेत के रूप में राइजिंग वेज पैटर्न के गठन की तलाश करते हैं। वे इस पैटर्न का उपयोग स्टॉप-लॉस ऑर्डर सेट करने या लाभ लेने के लिए भी कर सकते हैं यदि उन्होंने पहले लंबी स्थिति में प्रवेश किया था।\n\n
+बढ़ते वेज पैटर्न की पहचान करने के लिए, व्यापारी आम तौर पर कम से कम दो उच्च ऊंचाई और दो उच्च चढ़ाव की श्रृंखला की तलाश करते हैं जो एक-दूसरे की ओर एकत्रित हो रहे हों। उच्च निम्न को जोड़ने वाली प्रवृत्ति रेखा को समर्थन रेखा कहा जाता है, जबकि उच्च ऊंचाई को जोड़ने वाली प्रवृत्ति रेखा को प्रतिरोध रेखा कहा जाता है। जब कीमत समर्थन रेखा से नीचे गिरती है तो पैटर्न की पुष्टि मानी जाती है।\n\n
+यह ध्यान रखना महत्वपूर्ण है कि राइजिंग वेज पैटर्न हमेशा ट्रेंड रिवर्सल का एक विश्वसनीय संकेत नहीं होता है, क्योंकि गलत संकेत हो सकते हैं। इसलिए, व्यापारियों को हमेशा अन्य तकनीकी संकेतकों, जैसे वॉल्यूम, गति और ऑसिलेटर्स के साथ पैटर्न की पुष्टि करनी चाहिए। इसके अतिरिक्त, व्यापारियों को इस बात की जानकारी होनी चाहिए कि कीमत टूटने से पहले वेज के भीतर बढ़ती रह सकती है, इसलिए इस पैटर्न पर व्यापार करते समय धैर्य और जोखिम प्रबंधन महत्वपूर्ण है।\n\n
+अंत में, राइजिंग वेज चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जिसका उपयोग व्यापारियों और निवेशकों द्वारा संभावित ट्रेंड रिवर्सल की पहचान करने के लिए किया जा सकता है। इसका गठन तब होता है जब किसी परिसंपत्ति की कीमत उच्च ऊंचाई और उच्च निम्न की श्रृंखला में बढ़ती है, लेकिन ऊंचाई और निम्न एक-दूसरे की ओर एकत्रित होते हैं, जिससे एक संकीर्ण पच्चर का आकार बनता है। व्यापारियों को अन्य तकनीकी संकेतकों के साथ पैटर्न की पुष्टि करनी चाहिए और इस पैटर्न का व्यापार करते समय धैर्य और जोखिम प्रबंधन करना चाहिए।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

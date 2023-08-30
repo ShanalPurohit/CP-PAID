@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern23">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Diamond Top  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/diamondtop" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The Diamond Top chart pattern is a technical analysis formation that occurs on price charts and is often seen as a reversal pattern. It is characterized by a diamond-shaped pattern formed by two converging trendlines. The pattern typically develops after an uptrend and signals a potential trend reversal to the downside.\nn\
+Here's a brief description of the Diamond Top chart pattern:\n\n
+Uptrend: The Diamond Top pattern forms after a sustained uptrend, where the price has been making higher highs and higher lows.\n\n
+Formation: The pattern begins to take shape as the price starts to consolidate and form higher highs and lower lows within a converging range. This creates the diamond-shaped pattern on the chart.\n\n
+Support and Resistance: The upper trendline connects the lower highs, while the lower trendline connects the higher lows. These trendlines create the boundaries of the diamond pattern. The support line acts as a potential area of buying interest, while the resistance line acts as a level where selling pressure may increase.\n\n
+Breakout: Eventually, the price breaks out of the diamond pattern, usually to the downside, indicating a potential trend reversal. The breakout is confirmed when the price closes below the support line.\n\n
+Target: The projected price target for the Diamond Top pattern is often estimated by measuring the height of the diamond's widest part and subtracting it from the breakout level. Traders and analysts use this target as a potential area for price reversal or profit-taking.\n\n
+It's important to note that while the Diamond Top pattern suggests a potential trend reversal, it's not foolproof, and traders should always consider additional technical indicators, market context, and other factors before making trading decisions based solely on this pattern. It's also recommended to use stop-loss orders and risk management strategies to protect against potential losses."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="डायमंड टॉप चार्ट पैटर्न एक तकनीकी विश्लेषण गठन है जो मूल्य चार्ट पर होता है और इसे अक्सर उलट पैटर्न के रूप में देखा जाता है। इसकी विशेषता हीरे के आकार का पैटर्न है जो दो अभिसरण प्रवृत्ति रेखाओं द्वारा निर्मित होता है। पैटर्न आम तौर पर एक अपट्रेंड के बाद विकसित होता है और संभावित ट्रेंड के नकारात्मक पक्ष में उलट होने का संकेत देता है।\n\n
+यहां डायमंड टॉप चार्ट पैटर्न का संक्षिप्त विवरण दिया गया है:\n\n
+अपट्रेंड: डायमंड टॉप पैटर्न एक निरंतर अपट्रेंड के बाद बनता है, जहां कीमत ऊंची ऊंचाई और ऊंची नीची बना रही है।\n\n
+गठन: पैटर्न आकार लेना शुरू कर देता है क्योंकि कीमत समेकित होने लगती है और एक अभिसरण सीमा के भीतर उच्च ऊंचाई और निचले निचले स्तर का निर्माण करती है। यह चार्ट पर हीरे के आकार का पैटर्न बनाता है।\n\n
+समर्थन और प्रतिरोध: ऊपरी ट्रेंडलाइन निचली ऊंचाई को जोड़ती है, जबकि निचली ट्रेंडलाइन ऊंची ऊंचाई को जोड़ती है। ये ट्रेंडलाइनें हीरे के पैटर्न की सीमाएँ बनाती हैं। समर्थन रेखा ब्याज खरीदने के संभावित क्षेत्र के रूप में कार्य करती है, जबकि प्रतिरोध रेखा एक ऐसे स्तर के रूप में कार्य करती है जहां बिक्री का दबाव बढ़ सकता है।\n\n
+ब्रेकआउट: अंततः, कीमत हीरे के पैटर्न से बाहर निकल जाती है, आमतौर पर नीचे की ओर, जो संभावित प्रवृत्ति के उलट होने का संकेत देती है। ब्रेकआउट की पुष्टि तब की जाती है जब कीमत समर्थन रेखा से नीचे बंद होती है।\n\n
+लक्ष्य: डायमंड टॉप पैटर्न के लिए अनुमानित मूल्य लक्ष्य का अनुमान अक्सर हीरे के सबसे चौड़े हिस्से की ऊंचाई को मापकर और ब्रेकआउट स्तर से घटाकर लगाया जाता है। व्यापारी और विश्लेषक इस लक्ष्य का उपयोग मूल्य परिवर्तन या लाभ लेने के संभावित क्षेत्र के रूप में करते हैं।\n\n
+यह ध्यान रखना महत्वपूर्ण है कि जबकि डायमंड टॉप पैटर्न एक संभावित प्रवृत्ति के उलट होने का सुझाव देता है, यह फुलप्रूफ नहीं है, और व्यापारियों को इस पैटर्न के आधार पर व्यापारिक निर्णय लेने से पहले हमेशा अतिरिक्त तकनीकी संकेतक, बाजार संदर्भ और अन्य कारकों पर विचार करना चाहिए। संभावित नुकसान से बचाने के लिए स्टॉप-लॉस ऑर्डर और जोखिम प्रबंधन रणनीतियों का उपयोग करने की भी सिफारिश की जाती है।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

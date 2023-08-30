@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern15">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="V Shape  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/vshape1" />
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/vshape" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The V-shaped chart pattern is a technical analysis pattern used by traders to identify a potential reversal in a downtrend. The pattern is characterized by a sharp and rapid decline in price, followed by an equally sharp and rapid recovery. The resulting chart formation resembles a 'V' shape, hence the name.\n\n
+The V-shaped pattern is considered a bullish reversal pattern because it signals a sudden and strong buying interest in the market. It suggests that the market sentiment has shifted from bearish to bullish, and that buyers have taken control of the market. This is often seen as a sign that the previous downtrend is coming to an end, and that a new uptrend is beginning.\n\n
+To identify a V-shaped pattern, traders look for a sharp and sudden decline in price, followed by a rapid rebound that takes the price back to or near its previous high. The rebound should be nearly as steep as the decline, creating the V-shape. The pattern can occur on any time frame, but it is most effective on longer-term charts, such as daily or weekly charts.\n\n
+It is important to note that the V-shaped pattern is not always a reliable indicator of a reversal. In some cases, the pattern may be a false signal, and the price may continue to decline after the rebound. Traders should always use additional technical analysis tools and confirmations, such as volume indicators, moving averages, and trendlines, to validate the V-shaped pattern.\n\n
+Overall, the V-shaped pattern is a powerful tool for traders to identify potential buying opportunities in the market. When used in conjunction with other technical analysis tools, it can help traders make informed trading decisions and improve their chances of success."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="वी-आकार का चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जिसका उपयोग व्यापारियों द्वारा डाउनट्रेंड में संभावित उलटफेर की पहचान करने के लिए किया जाता है। इस पैटर्न की विशेषता कीमत में तेज और तेजी से गिरावट है, जिसके बाद उतनी ही तेज और तेजी से रिकवरी होती है। परिणामी चार्ट निर्माण 'V' आकार जैसा दिखता है, इसलिए नाम।\n\n
+वी-आकार के पैटर्न को एक तेजी से उलट पैटर्न माना जाता है क्योंकि यह बाजार में अचानक और मजबूत खरीदारी रुचि का संकेत देता है। इससे पता चलता है कि बाजार की धारणा मंदी से तेजी की ओर स्थानांतरित हो गई है और खरीदारों ने बाजार पर नियंत्रण कर लिया है। इसे अक्सर एक संकेत के रूप में देखा जाता है कि पिछला डाउनट्रेंड समाप्त हो रहा है, और एक नया अपट्रेंड शुरू हो रहा है।\n\n
+वी-आकार के पैटर्न की पहचान करने के लिए, व्यापारी कीमत में तेज और अचानक गिरावट की तलाश करते हैं, जिसके बाद तेजी से पलटाव होता है जो कीमत को अपने पिछले उच्च स्तर पर या उसके करीब ले जाता है। रिबाउंड लगभग गिरावट जितना ही तीव्र होना चाहिए, जिससे वी-आकार का निर्माण हो। पैटर्न किसी भी समय सीमा पर हो सकता है, लेकिन यह लंबी अवधि के चार्ट, जैसे दैनिक या साप्ताहिक चार्ट, पर सबसे प्रभावी है।\n\n
+यह ध्यान रखना महत्वपूर्ण है कि वी-आकार का पैटर्न हमेशा उलट का एक विश्वसनीय संकेतक नहीं होता है। कुछ मामलों में, पैटर्न गलत संकेत हो सकता है, और रिबाउंड के बाद कीमत में गिरावट जारी रह सकती है। व्यापारियों को वी-आकार के पैटर्न को मान्य करने के लिए हमेशा अतिरिक्त तकनीकी विश्लेषण टूल और पुष्टिकरण, जैसे वॉल्यूम संकेतक, मूविंग एवरेज और ट्रेंडलाइन का उपयोग करना चाहिए।\n\n
+कुल मिलाकर, वी-आकार का पैटर्न व्यापारियों के लिए बाज़ार में संभावित खरीदारी के अवसरों की पहचान करने का एक शक्तिशाली उपकरण है। जब इसे अन्य तकनीकी विश्लेषण उपकरणों के साथ संयोजन में उपयोग किया जाता है, तो यह व्यापारियों को सूचित व्यापारिक निर्णय लेने और उनकी सफलता की संभावनाओं में सुधार करने में मदद कर सकता है।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

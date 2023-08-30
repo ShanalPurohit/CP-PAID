@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern7">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Symmetrical Triangle  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/symmetrical1" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/symmentrictr" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A symmetrical triangle chart pattern is a technical analysis pattern that forms when the price of an asset is moving within a triangle shape, with both the support and resistance lines converging towards each other. This pattern is created when there is an equilibrium between buyers and sellers in the market, resulting in a period of consolidation or indecision.\n\n
+The symmetrical triangle chart pattern is identified by drawing two trend lines that connect the higher highs and lower lows of the price action. The upper trend line is drawn by connecting the series of higher highs, while the lower trend line is drawn by connecting the series of lower lows. These two trend lines will eventually converge towards each other and form the triangle pattern.\n\n
+The pattern is considered symmetrical because the upper and lower trend lines are of equal slope, and the distance between them gradually narrows over time. This indicates that the market is in a state of balance, and that neither the buyers nor the sellers have gained control over the asset's price movement.\n\n
+As the price continues to move within the triangle, it may reach a point where it breaks out of the pattern, either above the upper trend line (resistance) or below the lower trend line (support). This breakout signals a shift in the market sentiment, and traders use this information to make trading decisions.\n\n
+A breakout above the upper trend line is seen as a bullish signal, indicating that buyers have gained control and the asset's price is likely to continue to rise. Conversely, a breakout below the lower trend line is seen as a bearish signal, indicating that sellers have taken control and the asset's price is likely to continue to fall.\n\n
+Traders often use other technical indicators such as volume and momentum to confirm the breakout and to determine the strength of the trend. The target price of the pattern can be estimated by measuring the height of the triangle at its widest point and projecting this distance in the direction of the breakout.\n\n
+In summary, the symmetrical triangle chart pattern is a technical analysis tool that helps traders identify potential trend reversals or continuations in the market. The pattern indicates a period of indecision and balance between buyers and sellers, and a breakout from the pattern signals a shift in the market sentiment. Traders can use this pattern to make informed trading decisions and manage their risk."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="एक सममित त्रिकोण चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जो तब बनता है जब किसी परिसंपत्ति की कीमत त्रिकोण आकार के भीतर बढ़ रही होती है, जिसमें समर्थन और प्रतिरोध दोनों रेखाएं एक-दूसरे की ओर एकत्रित होती हैं। यह पैटर्न तब बनता है जब बाजार में खरीदारों और विक्रेताओं के बीच संतुलन होता है, जिसके परिणामस्वरूप समेकन या अनिर्णय की अवधि होती है।\n\n
+सममित त्रिकोण चार्ट पैटर्न की पहचान दो प्रवृत्ति रेखाओं को खींचकर की जाती है जो मूल्य कार्रवाई के उच्च ऊंचाई और निचले निम्न को जोड़ती हैं। ऊपरी प्रवृत्ति रेखा उच्चतर ऊँचाइयों की श्रृंखला को जोड़कर खींची जाती है, जबकि निचली प्रवृत्ति रेखा निचले निम्न की श्रृंखला को जोड़कर खींची जाती है। ये दो प्रवृत्ति रेखाएं अंततः एक-दूसरे की ओर मिलेंगी और त्रिकोण पैटर्न बनाएंगी।\n\n
+पैटर्न को सममित माना जाता है क्योंकि ऊपरी और निचली प्रवृत्ति रेखाएं समान ढलान वाली होती हैं, और समय के साथ उनके बीच की दूरी धीरे-धीरे कम होती जाती है। यह इंगित करता है कि बाजार संतुलन की स्थिति में है, और न तो खरीदारों और न ही विक्रेताओं ने परिसंपत्ति के मूल्य आंदोलन पर नियंत्रण हासिल कर लिया है।\n\n
+जैसे-जैसे कीमत त्रिकोण के भीतर चलती रहती है, यह एक ऐसे बिंदु तक पहुंच सकती है जहां यह पैटर्न से बाहर हो जाती है, या तो ऊपरी प्रवृत्ति रेखा (प्रतिरोध) से ऊपर या निचली प्रवृत्ति रेखा (समर्थन) के नीचे। यह ब्रेकआउट बाज़ार की धारणा में बदलाव का संकेत देता है, और व्यापारी इस जानकारी का उपयोग व्यापारिक निर्णय लेने के लिए करते हैं।\n\n
+ऊपरी प्रवृत्ति रेखा के ऊपर एक ब्रेकआउट को एक तेजी के संकेत के रूप में देखा जाता है, जो दर्शाता है कि खरीदारों ने नियंत्रण हासिल कर लिया है और परिसंपत्ति की कीमत में वृद्धि जारी रहने की संभावना है। इसके विपरीत, निचली प्रवृत्ति रेखा के नीचे एक ब्रेकआउट को एक मंदी के संकेत के रूप में देखा जाता है, जो दर्शाता है कि विक्रेताओं ने नियंत्रण ले लिया है और परिसंपत्ति की कीमत में गिरावट जारी रहने की संभावना है।\n\n
+ब्रेकआउट की पुष्टि करने और प्रवृत्ति की ताकत निर्धारित करने के लिए व्यापारी अक्सर अन्य तकनीकी संकेतकों जैसे वॉल्यूम और गति का उपयोग करते हैं। पैटर्न के लक्ष्य मूल्य का अनुमान त्रिभुज की ऊंचाई को उसके सबसे चौड़े बिंदु पर मापकर और इस दूरी को ब्रेकआउट की दिशा में प्रक्षेपित करके लगाया जा सकता है।\n\n
+संक्षेप में, सममित त्रिकोण चार्ट पैटर्न एक तकनीकी विश्लेषण उपकरण है जो व्यापारियों को बाजार में संभावित प्रवृत्ति उलटफेर या निरंतरता की पहचान करने में मदद करता है। पैटर्न खरीदारों और विक्रेताओं के बीच अनिर्णय और संतुलन की अवधि को इंगित करता है, और पैटर्न से ब्रेकआउट बाजार की भावना में बदलाव का संकेत देता है। व्यापारी इस पैटर्न का उपयोग सूचित व्यापारिक निर्णय लेने और अपने जोखिम का प्रबंधन करने के लिए कर सकते हैं।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1pattern4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Triple Bottom  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/triplebtm1" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/tripplebtm" />
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="The triple bottom chart pattern is a bullish reversal pattern that can be observed on a price chart. It is formed by three distinct lows at approximately the same price level, with two intermediate highs between them. This pattern signifies that selling pressure has been exhausted and a reversal in trend is likely to occur.\n\n
+The triple bottom pattern is similar to the double bottom pattern, but instead of two lows, it has three. The pattern is confirmed when the price breaks above the intermediate high that separates the three lows. This break signals a shift in market sentiment from bearish to bullish, and traders will look for opportunities to buy.\n\n
+Traders will typically look for a few characteristics to confirm a triple bottom pattern. Firstly, the three lows should be relatively equal in price and occur over a similar time frame. Secondly, the pattern should be preceded by a downtrend, indicating that it is a reversal pattern. Finally, the pattern should be accompanied by a noticeable increase in trading volume on the final low and subsequent breakout.\n\n
+Overall, the triple bottom pattern is a bullish signal that indicates a potential trend reversal from bearish to bullish. It is essential to combine this pattern with other technical indicators and analysis to confirm the signal and make informed trading decisions."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ट्रिपल बॉटम चार्ट पैटर्न एक तेजी से उलटा पैटर्न है जिसे मूल्य चार्ट पर देखा जा सकता है। यह लगभग समान मूल्य स्तर पर तीन अलग-अलग निम्न स्तरों से बनता है, जिनके बीच दो मध्यवर्ती उच्च होते हैं। यह पैटर्न दर्शाता है कि बिक्री का दबाव समाप्त हो गया है और प्रवृत्ति में उलटफेर होने की संभावना है।\n\n
+ट्रिपल बॉटम पैटर्न डबल बॉटम पैटर्न के समान है, लेकिन इसमें दो लो के बजाय तीन लो होते हैं। पैटर्न की पुष्टि तब होती है जब कीमत मध्यवर्ती उच्च से ऊपर टूटती है जो तीन निम्न को अलग करती है। यह ब्रेक बाजार की धारणा में मंदी से तेजी की ओर बदलाव का संकेत देता है, और व्यापारी खरीदारी के अवसरों की तलाश करेंगे।\n\n
+व्यापारी आमतौर पर ट्रिपल बॉटम पैटर्न की पुष्टि के लिए कुछ विशेषताओं की तलाश करेंगे। सबसे पहले, तीन निम्न मूल्य अपेक्षाकृत समान होने चाहिए और समान समय सीमा में घटित होने चाहिए। दूसरे, पैटर्न से पहले एक डाउनट्रेंड आना चाहिए, जो दर्शाता है कि यह एक रिवर्सल पैटर्न है। अंत में, पैटर्न के साथ अंतिम निचले स्तर और उसके बाद के ब्रेकआउट पर ट्रेडिंग वॉल्यूम में उल्लेखनीय वृद्धि होनी चाहिए।\n\n
+कुल मिलाकर, ट्रिपल बॉटम पैटर्न एक तेजी का संकेत है जो मंदी से तेजी की ओर संभावित प्रवृत्ति के उलट होने का संकेत देता है। सिग्नल की पुष्टि करने और सूचित व्यापारिक निर्णय लेने के लिए इस पैटर्न को अन्य तकनीकी संकेतकों और विश्लेषण के साथ जोड़ना आवश्यक है।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

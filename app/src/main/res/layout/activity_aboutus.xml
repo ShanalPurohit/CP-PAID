@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutus">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="8sp"
+                android:layout_gravity="center"
+                android:layout_margin="20sp"
+                android:backgroundTint="@color/black">
+
+                <ImageView
+                    android:layout_width="250sp"
+                    android:layout_height="250sp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/aboutusimg"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About Us :"
+                android:layout_margin="10sp"
+                android:textSize="26sp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-black"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:layout_margin="10sp"
+                android:textStyle="normal"
+                android:textAlignment="viewStart"
+                android:text="Welcome to TrendgLab, a leading educational institution dedicated to providing comprehensive training and guidance in the field of stock market investing. With a firm belief in the power of knowledge and informed decision-making, we strive to empower individuals to become successful investors and traders in the dynamic world of finance.\n\n
+At Trendglab, we understand that the stock market can be a complex and challenging domain for beginners and even experienced professionals. Our mission is to bridge the gap between theory and practice, equipping our students with the necessary skills, knowledge, and confidence to navigate the intricacies of the stock market with ease and precision.\n\n
+Our team of seasoned financial experts and educators comprises professionals with extensive experience in the stock market industry. They bring a wealth of practical insights and a deep understanding of market trends, investment strategies, and risk management techniques. We believe that our instructors' expertise, combined with their passion for teaching, enables us to offer high-quality, industry-relevant education to our students.\n\n
+Key Features of TrendgLab :\n\n
+Comprehensive Curriculum: Our meticulously designed curriculum covers a wide range of topics, including fundamental analysis, technical analysis, risk management, portfolio management, trading psychology, and more. We ensure that our students receive a holistic education that prepares them for the complexities of real-world trading scenarios.
+\n\n
+Practical Approach: We emphasize hands-on learning and provide our students with practical exercises, case studies, and simulated trading environments. By actively engaging in market analysis and making informed investment decisions, our students develop the confidence and skills necessary to thrive in the stock market.
+\n\n
+Customized Learning Paths: We recognize that each student has unique learning requirements and goals. Hence, we offer personalized learning paths to cater to individual needs. Whether you are a beginner seeking a strong foundation or an experienced investor looking to refine your strategies, we have tailored programs to suit your specific objectives.
+\n\n
+Mentorship and Support: At Trendglab, we believe in fostering a supportive learning environment. Our mentors provide guidance and assistance throughout your learning journey, helping you overcome challenges and make informed decisions. We are committed to your success and are always available to address your queries and concerns.
+\n\n
+Networking Opportunities: We understand the importance of building connections within the industry. Our institute provides ample networking opportunities through seminars, workshops, and guest lectures by renowned professionals. This allows our students to expand their professional network and gain insights from experts in the field.
+\n\n
+Continuing Education: The stock market is a dynamic and ever-evolving industry. To keep our students updated with the latest trends and strategies, we offer continuous education through webinars, research papers, and exclusive access to our online learning resources. We encourage lifelong learning to ensure our students stay ahead of the curve in the fast-paced world of finance.
+\n\n
+Whether you aspire to become a successful investor, enhance your trading skills, or pursue a career in the financial industry, TrendgLab is committed to empowering you with the knowledge and tools required to achieve your goals. Join us on this exciting journey, and unlock your potential in the world of stock market investing."/>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

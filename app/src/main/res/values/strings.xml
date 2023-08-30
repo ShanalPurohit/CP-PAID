@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chart Patterns</string>
+    <string name="strike"><strike> Rs.4999 </strike> </string>
+    <string name="strike1"><strike> Rs.2999 </strike> </string>
+    <string name="facebook_app_id">791718909105877</string>
+    <string name="facebook_client_token">c66ded90ab88694495befc4e4c1217d2</string>
+</resources>

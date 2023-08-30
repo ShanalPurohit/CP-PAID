@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c2pattern1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Double Bottom  "
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:padding="5sp"
+                android:background="#9c27b0"
+                android:textColor="#fff"
+                android:layout_marginTop="10sp"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/doublebtm1" />
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/darker_gray" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/doublebtm" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Description :  "
+                android:layout_marginTop="10sp"
+                android:padding="5sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#fff"
+                android:background="#9c27b0"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="A double bottom chart pattern is a technical analysis pattern used in financial markets, particularly in stock trading, to identify a potential trend reversal from a downward trend to an upward trend. It is characterized by two consecutive troughs or valleys, separated by a peak or a minor high, that occur at roughly the same price level. This formation is often seen as a bullish signal as it indicates that the stock's price has reached a level of support and is likely to rebound.\n\n
+The double bottom pattern is formed when the stock's price falls to a low point, then bounces back up, only to fall back down to the same level or slightly lower. This creates the first trough or valley in the pattern. The price then rallies again, but fails to break through the previous high, and falls back down to the same level as the first trough. This creates the second trough or valley, which is often slightly higher than the first.\n\n
+The double bottom pattern is confirmed when the price breaks through the peak that separated the two troughs. This signals a shift in momentum from bearish to bullish, and is often accompanied by an increase in trading volume. Traders typically look for a price move equal to the distance between the troughs, known as the 'measured move', to confirm the pattern's validity.\n\n
+The double bottom pattern is often seen as a reversal pattern as it signifies the end of a downtrend and the beginning of a new uptrend. It is important to note that not all double bottoms lead to a trend reversal, and traders should always use other technical analysis tools and indicators to confirm the pattern's validity before making any trading decisions.\n\n
+Overall, the double bottom chart pattern is a popular and reliable technical analysis tool used by traders to identify potential trend reversals and profit from them. It is important to note that, like all technical analysis tools, it should be used in conjunction with other indicators and analysis methods to maximize its effectiveness."
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@android:color/black" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="10sp"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="डबल बॉटम चार्ट पैटर्न एक तकनीकी विश्लेषण पैटर्न है जिसका उपयोग वित्तीय बाजारों में, विशेष रूप से स्टॉक ट्रेडिंग में, नीचे की प्रवृत्ति से ऊपर की ओर प्रवृत्ति के संभावित उलट की पहचान करने के लिए किया जाता है। इसकी विशेषता दो लगातार गर्त या घाटियाँ हैं, जो एक शिखर या मामूली ऊँचाई से अलग होते हैं, जो लगभग समान मूल्य स्तर पर होते हैं। इस गठन को अक्सर एक तेजी के संकेत के रूप में देखा जाता है क्योंकि यह इंगित करता है कि स्टॉक की कीमत समर्थन के स्तर तक पहुंच गई है और इसके पलटाव की संभावना है।\n\n
+डबल बॉटम पैटर्न तब बनता है जब स्टॉक की कीमत निचले बिंदु तक गिरती है, फिर वापस ऊपर की ओर उछलती है, और फिर उसी स्तर पर या थोड़ा नीचे गिरती है। यह पैटर्न में पहला गर्त या घाटी बनाता है। कीमत फिर से बढ़ जाती है, लेकिन पिछली ऊंचाई को तोड़ने में विफल रहती है, और पहली गर्त के समान स्तर पर वापस गिर जाती है। इससे दूसरा गर्त या घाटी बनती है, जो अक्सर पहले से थोड़ा ऊंचा होता है।\n\n
+डबल बॉटम पैटर्न की पुष्टि तब होती है जब कीमत दो गर्तों को अलग करने वाले शिखर से टूटती है। यह गति में मंदी से तेजी की ओर बदलाव का संकेत देता है, और अक्सर ट्रेडिंग वॉल्यूम में वृद्धि के साथ होता है। पैटर्न की वैधता की पुष्टि करने के लिए व्यापारी आमतौर पर गर्तों के बीच की दूरी के बराबर मूल्य चाल की तलाश करते हैं, जिसे 'मापी चाल' के रूप में जाना जाता है।\n\n
+डबल बॉटम पैटर्न को अक्सर रिवर्सल पैटर्न के रूप में देखा जाता है क्योंकि यह डाउनट्रेंड के अंत और नए अपट्रेंड की शुरुआत का प्रतीक है। यह ध्यान रखना महत्वपूर्ण है कि सभी डबल बॉटम्स ट्रेंड रिवर्सल का कारण नहीं बनते हैं, और व्यापारियों को कोई भी ट्रेडिंग निर्णय लेने से पहले पैटर्न की वैधता की पुष्टि करने के लिए हमेशा अन्य तकनीकी विश्लेषण टूल और संकेतक का उपयोग करना चाहिए।\n\n
+कुल मिलाकर, डबल बॉटम चार्ट पैटर्न एक लोकप्रिय और विश्वसनीय तकनीकी विश्लेषण उपकरण है जिसका उपयोग व्यापारियों द्वारा संभावित ट्रेंड रिवर्सल और उनसे लाभ की पहचान करने के लिए किया जाता है। यह ध्यान रखना महत्वपूर्ण है कि, सभी तकनीकी विश्लेषण उपकरणों की तरह, इसकी प्रभावशीलता को अधिकतम करने के लिए इसका उपयोग अन्य संकेतकों और विश्लेषण विधियों के साथ संयोजन में किया जाना चाहिए।"
+                    android:textFontWeight="400"
+                    android:textSize="24sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="10sp"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

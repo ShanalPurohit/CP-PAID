@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".course5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/course4" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Important Trading Tips"
+                android:textSize="36sp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_margin="10sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="4dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="01. Set clear trading goals and objectives."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="02. Develop a trading strategy that suits your style and goals."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="03. Practice proper risk management techniques."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="04. Keep a trading journal to track your progress and learn from your mistakes."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="05. Always use stop-loss orders to protect your capital."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="06. Don't risk more than you can afford to lose."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="07. Have patience and discipline."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="08. Don't let emotions cloud your judgment."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="09. Keep up to date with market news and events."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="10. Use technical analysis to identify potential trading opportunities."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="11. Be aware of market trends and sentiment."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="12. Consider using fundamental analysis to evaluate long-term investments."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="13. Monitor your positions regularly and adjust your strategy accordingly."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="14. Don't chase after trades or try to time the market."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="15. Keep a cool head in volatile markets."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="16. Diversify your portfolio to manage risk."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="17. Avoid trading on margin unless you fully understand the risks."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="18. Stay away from penny stocks and other high-risk investments."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="19. Be cautious when using leverage."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="20. Use a reliable broker with a good reputation."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="21. Keep your trading costs low."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="22. Be aware of tax implications for your trades."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="23. Keep your personal and trading finances separate."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="24. Set realistic profit targets and stick to them."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="25. Don't get greedy and take profits too early."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="26. Use a trailing stop-loss to lock in profits."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="27. Consider using options to hedge your positions."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="28. Keep an eye on the overall market direction."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="29. Use trading software to automate your strategy."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="30. Keep a watchlist of potential trades."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="31. Be aware of the bid-ask spread."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="32. Trade with the trend, not against it."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="33. Use candlestick charts to identify market patterns."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="34. Use technical indicators to confirm your trading signals."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="35. Understand the different types of orders and when to use them."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="36. Don't trade based on rumors or hearsay."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="37. Always do your own research before making a trade."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="38. Use position sizing to manage your risk."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="39. Be aware of market opening and closing times."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="40. Consider using a trading mentor or coach."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="41. Take breaks and don't overtrade."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="42. Keep a positive attitude and believe in your abilities."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="43. Be adaptable and willing to change your strategy as needed."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="44. Avoid chasing after losses."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="45. Use a demo account to practice your strategy before trading with real money."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="46. Be aware of seasonal trends in the market."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="47. Keep an eye on trading volumes and liquidity."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="48. Use a trading checklist to ensure you don't miss any important steps."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="49. Consider using a trading plan template to help you get started."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="50. Focus on quality trades, not quantity."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="51. Don't let a single trade determine your overall success or failure."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="52. Be patient and wait for the right opportunities."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="53. Use multiple timeframes to confirm your analysis."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="54. Don't try to predict the future, focus on the present."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="55. Use price action to identify key levels and patterns."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="56. Be aware of news releases and their potential impact on the market."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="57. Use a trading simulator to practice your strategy."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="58. Keep a watchful eye on market correlations."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="59. Don't be afraid to take profits and exit a trade."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="60. Use a trading diary to document your trades and learn from your mistakes."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="61. Be aware of trading psychology and how it can impact your decisions."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="62. Understand the concept of market cycles."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="63. Use trailing stops to limit your losses and protect your profits."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="64. Don't let past successes or failures cloud your judgment."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/round_btn"
+                android:text="65. Be willing to learn from other traders and Be mindful of overnight risks and gaps in the market."
+                android:textSize="20sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#fff"
+                android:layout_margin="10sp"
+                android:padding="10sp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
